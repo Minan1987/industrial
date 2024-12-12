@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import HomeServices from './components/HomeServices'
 import Features from './components/Features'
 import ClientsContact from './ClientsContact'
+import BlueContactSection from './components/BlueContactSection'
 
 const HomePage = () => {
   return (
@@ -12,6 +13,7 @@ const HomePage = () => {
       <HomeServices />
       <Features />
       <ClientsContact />
+      <BlueContactSection />
     </>
   )
 }

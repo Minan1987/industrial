@@ -288,3 +288,8 @@ footer .copy-right {
     outline: 10px solid #efefef;
     outline-offset: -11px;
 }
+
+.blue-contact-section {
+    background-color: #174169;
+    color: #fff;
+}
