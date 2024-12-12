@@ -1,0 +1,44 @@
+{
+    "services": [
+      {
+        "id": 1,
+        "title": "Agricultural Processing",
+        "description": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet...",
+        "image": "/assets/img/sample1.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Alternate Energy",
+        "description": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet...",
+        "image": "/assets/img/sample2.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Chemical Research",
+        "description": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet...",
+        "image": "/assets/img/sample3.jpg"
+      }
+    ],
+    "clients": [
+      {
+        "id": 1,
+        "name": "VideoLab",
+        "logo": "/assets/img/icon1.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Coffee",
+        "logo": "/assets/img/icon5.jpg"
+      },
+      {
+        "id": 3,
+        "name": "MountainBike",
+        "logo": "/assets/img/icon9.jpg"
+      }
+    ],
+    "contact": {
+      "email": "info@industrial.com",
+      "phone": "18004567980",
+      "address": "Industrial Theme Demo"
+    }
+  }

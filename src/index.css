@@ -83,7 +83,8 @@ a {
 }
 
 .navbar .search-box input {
-    background-color: transparent;
+    color: #fff;
+    background-color: #081E2F;
     border: none;
 }
 

@@ -1,11 +1,11 @@
 import React from 'react'
-import ContactFrom from './components/ContactFrom'
-import img1 from '../assets/img/icon6.jpg'
-import img2 from '../assets/img/icon5.jpg'
-import img3 from '../assets/img/icon4.jpg'
-import img4 from '../assets/img/icon9.jpg'
-import img5 from '../assets/img/icon8.jpg'
-import img6 from '../assets/img/icon7.jpg'
+import ContactFrom from './ContactFrom'
+import img1 from '../../assets/img/icon6.jpg'
+import img2 from '../../assets/img/icon5.jpg'
+import img3 from '../../assets/img/icon4.jpg'
+import img4 from '../../assets/img/icon9.jpg'
+import img5 from '../../assets/img/icon8.jpg'
+import img6 from '../../assets/img/icon7.jpg'
 
 const ClientsContact = () => {
     return (

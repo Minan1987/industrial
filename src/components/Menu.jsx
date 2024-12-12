@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, Outlet } from 'react-router-dom'
 import logo from '../../assets/img/Logo_footer.png'
-import { CiSearch } from "react-icons/ci";
+import Search from './Search';
 
 function Menu() {
   return (
@@ -36,10 +36,7 @@ function Menu() {
             </li>
           </ul>
           <Outlet />
-          <form className="d-flex search-box h-100">
-            <input className="form-control me-2" type="search" placeholder="Enter Search Keywords" aria-label="Search" />
-            <button className="btn" type="submit"><CiSearch className='text-light'/></button>
-          </form>
+          <Search />
         </div>
       </div>
     </nav>

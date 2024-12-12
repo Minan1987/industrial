@@ -1,10 +1,6 @@
 import React from 'react'
-import { TopHeader, Menu, Slider, Footer, ContactUs, AboutUs, News, Services,Shop, Projects } from './components'
+import { TopHeader, Menu, Slider, Footer, ContactUs, AboutUs, News, Services, Shop, Projects, HomeServices, Features, ClientsContact, SearchResult, BlueContactSection } from './components'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import HomeServices from './components/HomeServices'
-import Features from './components/Features'
-import ClientsContact from './ClientsContact'
-import BlueContactSection from './components/BlueContactSection'
 
 const HomePage = () => {
   return (
@@ -33,6 +29,7 @@ const App = () => {
         <Route path='/projects' element={<Projects />} />
         <Route path='/news' element={<News />} />
         <Route path='/shop' element={<Shop />} />
+        <Route path="/search" element={<SearchResult />} />
       </Routes>
       <Footer />
     </BrowserRouter>
