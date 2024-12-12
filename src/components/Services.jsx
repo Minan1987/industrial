@@ -1,9 +1,10 @@
 import React from 'react'
+import HomeServices from './HomeServices'
 
 const Services = () => {
   return (
-    <div>
-      Services
+    <div className='container'>
+      <HomeServices />
     </div>
   )
 }
