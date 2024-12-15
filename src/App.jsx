@@ -16,7 +16,7 @@ const HomePage = () => {
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='industrial'>
       <header>
         <TopHeader />
         <Menu />
